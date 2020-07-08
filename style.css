@@ -58,8 +58,51 @@ header{
       
     }
 .btn-img{
+
     display: flex;
     justify-content: space-between;
 }
 
     /*----------------//--------------- courses part end ------------------------*/
+    .testi-img{
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        
+
+    }
+    .testi-img img{
+        width: 200px;
+       
+    }
+    .testi-img p{
+      padding: 10px;
+    }
+
+.p-learn{
+    background-color:rgb(244, 245, 246);
+    height: 300px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+    @media(max-width:500px){
+        .testi-img{
+            flex-direction: column;
+        }
+        .p-learn h1{
+            font-size: 25px;
+
+        }
+            
+        
+    }
